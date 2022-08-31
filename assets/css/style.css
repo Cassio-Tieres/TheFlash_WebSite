@@ -1,6 +1,9 @@
 * {
     font-family: 'Homenaje';
 }
+.hder {
+    z-index: 2 !important;
+}
 .bg-header, .os-flashs, .footer {
     background-color: #D11D1D;
 }
@@ -38,7 +41,7 @@
     color: #FFC700;
 }
 .os-flashs {
-    height: 59vh;
+    height: 44vh;
 }
 .card {
     background-color: #A71818;
@@ -69,13 +72,30 @@
     background-color: #FFC700 !important;
     color: #D11D1D;
 }
-
+.owl-carousel {
+    z-index: 1 !important;
+}
 .owl-config {
-    width: 69%;
+    width: 49%;
 }
 .owl-dots {
     display: none;
 }
+.owl-nav.disabled{
+    display: flex !important;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 30%;
+    left: -10% !important;
+}
+.owl-nav .owl-next {
+    position: absolute;
+    top: 30%;
+    right: -8%;
+}
+
 .btn:hover {
     background: #D11D1D;
 }
@@ -90,5 +110,32 @@
     }
     .direito {
         margin-top: 0 !important;
+    }
+    .owl-nav .owl-prev {
+        position: absolute;
+        top: 30%;
+        left: -23% !important;
+    }
+    .owl-nav .owl-next {
+        position: absolute;
+        top: 30%;
+        right: -19%;
+    }
+
+}
+@media (max-width:486px) {
+    .owl-config{
+        width: 64%;
+    }
+}
+@media (max-height: 625px){
+    .owl-config {
+        width: 69%;
+    }
+    .owl-nav .owl-next {
+        right: -10%;
+    }
+    .os-flashs {
+        height: 59vh;
     }
 }
