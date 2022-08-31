@@ -1,0 +1,94 @@
+* {
+    font-family: 'Homenaje';
+}
+.bg-header, .os-flashs, .footer {
+    background-color: #D11D1D;
+}
+.navbar-brand img {
+    width: 124px;
+}
+.navbar-nav a{
+ color: #FFC700 !important; 
+ font-size: 20px;  
+}
+.nav-link {
+    margin-left: 4% !important;
+}
+.banner {
+    overflow-x: hidden;
+}
+.banner .container-fluid {
+    padding: 0;
+}
+
+.fl-2 img {
+    width: 380px;
+    animation: fl-2 .5s ease;
+}
+
+.info-fl {
+    margin-top: 10%;
+}
+
+.info-fl a {
+    color: #D11D1D;
+    text-decoration: none;
+}
+.titles, .footer p {
+    color: #FFC700;
+}
+.os-flashs {
+    height: 59vh;
+}
+.card {
+    background-color: #A71818;
+    border: 1px solid #FFC700;
+    margin: 0 !important;
+}
+
+.titles-2 {
+    color: #D11D1D;
+}
+
+.btn-form {
+    background: #D11D1D;
+    color: #FFC700;
+    border: none;
+}
+
+.card-body h5{
+    color: #fff;
+}
+
+.btn-heroi {
+    background-color: #FFC700;
+    color: #D11D1D;
+    border: none;
+}
+.btn-heroi:hover{
+    background-color: #FFC700 !important;
+    color: #D11D1D;
+}
+
+.owl-config {
+    width: 69%;
+}
+.owl-dots {
+    display: none;
+}
+.btn:hover {
+    background: #D11D1D;
+}
+
+.footer {
+    height: 10vh;
+}
+
+@media (max-width: 796px){
+    .banner {
+        margin-top: 10%;
+    }
+    .direito {
+        margin-top: 0 !important;
+    }
+}
